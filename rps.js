@@ -9,3 +9,11 @@ function getComputerChoice() {
   const choice = choices[random_number];
   return choice;
 }
+
+function getHumanChoice() {
+  const choice = prompt("Enter rock, paper or scissors: ");
+  return choice;
+}
+
+let humanScore = 0;
+let computerScore = 0;
